@@ -29,6 +29,12 @@ namespace StackAndQueue
             queue.Enqueuue(node2);
             queue.Enqueuue(node3);
             queue.DisplayQueue();
+            Console.WriteLine("Removing the topmost element from Queue ");
+            queue.Top();
+
+            Console.WriteLine("After Remoing the last element from Queue ");
+            queue.Dequeue();
+            queue.DisplayQueue();
 
         }
     }
